@@ -1,0 +1,22 @@
+{
+  "name": "copy-json",
+  "version": "1.0.0",
+  "description": "Simple function for making shallow/deep copy of JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philecker/copy-json.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Phil Ecker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philecker/copy-json/issues"
+  },
+  "homepage": "https://github.com/philecker/copy-json#readme"
+}
