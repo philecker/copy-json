@@ -1,7 +1,7 @@
 {
   "name": "copy-json",
-  "version": "1.0.0",
-  "description": "Simple function for making shallow/deep copy of JSON",
+  "version": "1.0.1",
+  "description": "A utility function to create a deep copy of a JSON object.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
