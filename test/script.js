@@ -1,4 +1,5 @@
-const copyJSON = require('copy-json');
+// Description: Test script for copy-json
+import copyJSON from 'copy-json';
 
 var jsonObj = {
   "name": "John",
@@ -19,4 +20,6 @@ var jsonObj = {
   ]
 }
 
-console.log(copyJSON(jsonObj));
+var copiedJSON = copyJSON(jsonObj);
+
+console.log(copiedJSON === jsonObj);
