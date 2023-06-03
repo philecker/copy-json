@@ -15,7 +15,7 @@ npm install copy-json
 In your JavaScript file, import the `copyJSON` function and use it to create a deep copy of a JSON object:
 
 ```javascript
-const copyJSON = require('copy-json');
+import copyJSON from 'copy-json';
 
 const originalObj = { name: 'John', age: 25 };
 const copiedObj = copyJSON(originalObj);
